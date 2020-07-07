@@ -71,6 +71,9 @@ Revision: $Rev: 13430 $
   #include <intrinsics.h>
 #endif
 
+// MR
+#define SEGGER_RTT_SECTION ".sram_segger"
+
 /*********************************************************************
 *
 *       Defines, configurable
